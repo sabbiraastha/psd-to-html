@@ -1,0 +1,266 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/*header start*/
+/*eader start*/
+header{
+  background-color: black;
+  padding: 13px 0;
+}
+.c_nav{}
+.logo{
+  width: 100%;
+}
+p{
+  color: #86878b;
+}
+.menu ul li a{
+  font-size: 16px;
+  font-weight: 400;
+  color: white !important;
+  line-height: 24px;
+  padding: 0 25px !important;
+  text-transform: capitalize;
+}
+.menu ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #ff8b38;
+  margin: auto;
+  display: block;
+}
+.menu ul li a:hover{
+  color: #FD511A !important;
+}
+
+/* .btn_common{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF !important;
+  background-color: #21B573;
+  border-radius: 33px;
+}
+
+.btn_header{
+  width: 105px;
+  height: 45px;
+  padding: 12px 25px;
+  margin-left: 5px;
+}
+
+.btn_common:hover{
+  background-color: #FD511A !important;
+} */
+/*header end*/
+/* header end */
+
+/* banner  section start */
+.banner{
+width: 100%;
+height: 100vh;
+background: url(../img/axit.png) center center no-repeat;
+background-size: cover;
+font-family: 'Raleway', sans-serif;
+}
+.b_text h1{
+  font-size: 76px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.b_text h1 span{
+  color: #ff8b38;
+  font-weight: 300;
+}
+.b_text .b_p1{
+  font-size: 36px;
+  color: #ffffff;
+  width: 74%;
+  margin: 30px 0;
+}
+.b_text .b_margin{
+background: white;
+width: 75px;
+height: 1px;
+}
+.b_text .b_p2{
+font-size: 16px;
+font-weight: 300;
+color: #ffffff;
+width: 62%;
+margin: 30px 0;
+}
+.b_text .b_btn{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  text-transform: capitalize;
+  padding: 11px 26px;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.b_text .b_btn:hover{
+  background: #ff8b38;
+  border: 1px solid #ff8b38;
+  transition: 0.5s;
+}
+
+.cus_height{
+  height: 100vh;
+}
+.banner form{
+  width: 350px;
+}
+.card{
+border: none;
+}
+.card .c_header{
+border-bottom: none;
+background: #f5f5f5;
+}
+.card .c_header h2{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 14px 0;
+}
+.card .c_header h2 span{
+  color: #ff8b38;
+  text-transform: uppercase;
+}
+.card .c_body{ 
+padding: 15px 32px;
+}
+.card .c_body .form-group{
+  
+}
+.card .c_body .form-group .form-control{
+border: none;
+border-bottom: 1px solid #d6d1d1;
+border-radius: 0;
+padding: 8px 8px 4px;
+margin-bottom: 25px;
+}
+.card .c_footer{
+background: #ff8b38;
+text-align: center;
+}
+.card .c_footer a{
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  margin: 10px 0;
+}
+/* banner section end */
+/* socail section start */
+.socail{
+  width: 100%;
+  border-bottom: 2px solid grey;
+  padding: 12px 0;
+
+}
+.s_text{
+}
+.s_text h1{
+font-size: 20px;
+font-weight: 700;
+text-transform: capitalize;
+}
+.s_text p{
+}
+.s_icon{
+}
+.s_icon i{
+  font-size: 48px;
+  color: #cccccc;
+}
+/* socail section end */
+/* tab section start */
+
+.tab{
+width: 100%;
+background: #f5f5f5;
+padding: 120px 0px;
+}
+.tab .t_text{
+
+}
+.tab .t_text h2{
+font-size: 20px;
+font-weight: 700;
+}
+.tab .t_text .t_p1{
+width: 67%;
+font-size: 14px;
+margin: 40px 0 16px;
+}
+.tab .t_text .t_p2{
+width: 67%;
+font-size: 14px;
+margin-bottom: 20px;
+
+}
+.tab .t_text h4{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.tab .nav-link{
+  background: #333333;
+  width: 85px;
+  height: 90px;
+  border-bottom: 1px solid white;
+  margin-right: 125px;
+  color: #f5f5f5;
+}
+.tab .nav-link.active{
+  background: #ff8b38;
+}
+.tab .tab_1{
+border-radius: 4px 4px 0 0 !important;
+}
+.tab .tab_2{
+  border-radius: 0 !important;
+
+}
+.tab .tab_3{
+  border-radius: 0 0 4px 4px !important;
+}
+.tab .t_btn{
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  background: transparent;
+  border: 1px solid black;
+  text-transform: capitalize;
+  padding: 11px 26px;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.tab .t_btn:hover{
+  background: #ff8b38;
+  border: 1px solid #ff8b38;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+/* tab section end */

@@ -1,0 +1,244 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    header{
+        padding: 5px 0;
+    }
+    .logo{
+        width: 170px;
+    }
+    .menu ul li a {
+        margin-bottom: 10px;
+        padding: 0 15px !important;
+    }
+    /* banner */
+    .banner {
+        padding: 15px 0 60px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+ 
+    .b_p2 {
+        padding: 0 0px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+
+     /* feature start */
+     .feature{
+        padding-bottom: 70px;
+    }
+    .s_feature{ 
+    margin-top: 24px;
+    padding: 55px 45px;
+    }
+    .f_h2{
+        font-size: 22px;
+    }
+/* feature end */
+/* course start */
+.courses{
+    padding-bottom: 70px;
+}
+.c_h1 {
+    font-size: 30px; 
+    line-height: 45px;
+}
+.c_item{
+    margin-top: 30px;
+    padding: 15px 15px 20px;
+}
+c_h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+.c_li{
+    margin-right: 0px !important;
+}
+.calender ul li img, .people ul li img {
+    width: 20px;
+}
+.calender ul li span, .people ul li span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu ul li a {
+        margin-bottom: 5px;
+        padding: 0 10px !important;
+    }
+
+    /* bannder start */
+    .banner {
+        padding: 15px 0 60px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .b_p2 {
+        padding: 0 55px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 80px;
+    }
+
+    /* feature start */
+    .feature{
+        padding-bottom: 70px;
+    }
+    .s_feature{ 
+    margin-top: 24px;
+    padding: 55px 45px;
+    }
+/* feature end */
+/* course start */
+.courses{
+    padding-bottom: 70px;
+}
+.c_h1 {
+    font-size: 30px; 
+    line-height: 45px;
+}
+.c_item{
+    margin-top: 30px;
+    padding: 15px 15px 20px;
+}
+c_h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+.c_li{
+    margin-right: 0px !important;
+}
+.calender ul li img, .people ul li img {
+    width: 20px;
+}
+.calender ul li span, .people ul li span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.c_pad{
+    padding: 0 100px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul li a {
+        margin-bottom: 10px;
+        padding: 0 10px !important;
+    }
+    .banner {
+        padding: 15px 0 60px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 38px;
+        line-height: 54px;
+    }
+    .b_p2 {
+        padding: 0 100px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 50px;
+        padding: 0 150px;
+    }
+    /* feature start */
+    .feature{
+        padding-bottom: 80px;
+    }
+    .s_feature{ 
+    margin-top: 24px;
+    }
+/* feature end */
+/* course start */
+.courses {
+    padding-bottom: 80px;
+}
+.c_item {
+    margin-top: 40px;
+}
+.c_pad {
+    padding: 0 150px;
+}
+/* course end */
+}
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu ul li a {
+        margin-bottom: 5px;
+        padding: 0 10px !important;
+    }
+    .s_feature {
+        min-height: 270px;
+        padding: 35px 35px;
+    }
+
+    /* course start */
+.c_item{
+    padding: 20px 18px 25px;
+}
+.c_li{
+    margin-right: -1px !important;
+}
+.calender ul li img, .people ul li img {
+    width: 20px;
+}
+.calender ul li span, .people ul li span {
+    font-size: 15px;
+    font-weight: 400;
+}
+/* course end */
+    
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .box{
+        min-height: 100px;
+        background-color: black;
+    }
+}
+
+/* course start */
+.c_li{
+    margin-right: 0 !important;
+}
+.calender ul li img, .people ul li img {
+    width: 22px;
+}
+/* course end */
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/* feature start  */
+.s_feature{
+    padding: 72px 20px;
+}
+/* feature end */
+}
