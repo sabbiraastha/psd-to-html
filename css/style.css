@@ -6,11 +6,29 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  color: #000000;
+  color: #86878b;
 }
 
+.hr_line{
+  width: 65px;
+  height: 2px;
+  margin: 18px 0;
+  background: #ff8b38;
+}
+.h_line{
+  width: 65px;
+  height: 2px;
+  margin: 18px auto;
+  background: #ff8b38;
+}
+.h_title{
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-transform: uppercase;
+}
 /*header start*/
 /*eader start*/
 header{
@@ -44,36 +62,13 @@ p{
   color: #FD511A !important;
 }
 
-/* .btn_common{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF !important;
-  background-color: #21B573;
-  border-radius: 33px;
-}
-
-.btn_header{
-  width: 105px;
-  height: 45px;
-  padding: 12px 25px;
-  margin-left: 5px;
-}
-
-.btn_common:hover{
-  background-color: #FD511A !important;
-} */
-/*header end*/
-/* header end */
-
-/* banner  section start */
 .banner{
 width: 100%;
-height: 100vh;
+/* height: 150vh; */
 background: url(../img/axit.png) center center no-repeat;
 background-size: cover;
 font-family: 'Raleway', sans-serif;
+padding: 100px 0 120px;
 }
 .b_text h1{
   font-size: 76px;
@@ -88,8 +83,8 @@ font-family: 'Raleway', sans-serif;
 .b_text .b_p1{
   font-size: 36px;
   color: #ffffff;
-  width: 74%;
-  margin: 30px 0;
+  width: 97%;
+  margin: 15px 0;
 }
 .b_text .b_margin{
 background: white;
@@ -100,7 +95,7 @@ height: 1px;
 font-size: 16px;
 font-weight: 300;
 color: #ffffff;
-width: 62%;
+width: 88%;
 margin: 30px 0;
 }
 .b_text .b_btn{
@@ -122,9 +117,9 @@ margin: 30px 0;
   transition: 0.5s;
 }
 
-.cus_height{
+/* .cus_height{
   height: 100vh;
-}
+} */
 .banner form{
   width: 350px;
 }
@@ -198,7 +193,7 @@ text-transform: capitalize;
 .tab{
 width: 100%;
 background: #f5f5f5;
-padding: 120px 0px;
+padding: 70px 0px;
 }
 .tab .t_text{
 
@@ -264,3 +259,305 @@ border-radius: 4px 4px 0 0 !important;
 }
 
 /* tab section end */
+/* feature 1 section start */
+.feature1{
+  width: 100%;
+  padding: 100px 0 110px;
+}
+.feature1 h1{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+.feature1 h2{
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+.feature1 .f_pad{
+  padding: 10px 0 26px;
+}
+.feature1 .f_title{
+
+}
+.f_icon{
+  display: inline-block;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ff8b38;
+  transition: 0.5s;
+}
+.f_icon i{
+  color: #ff8b38;
+  font-size: 25px;
+  margin-top: 12px;
+}
+/* feature 1 section end */
+/* feature 2 start  */
+.feature2{
+  width: 100%;
+  background: #f5f5f5;
+  padding: 90px 0 90px;
+}
+.feature2 h1{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.feature2 .f2_p1{
+  width: 63%;
+}
+.feature2 .f2_p2{
+  width: 63%;
+}
+
+/* feature 2 end */
+
+/* product rivew section start */
+.product{
+  padding-top: 70px;
+  border-bottom: 1px solid rgb(239, 236, 236);
+  padding-bottom: 50px;
+}
+.p-title{
+ margin-bottom: 60px;
+}
+.p_text{
+  text-align: center;
+}
+.h_6{
+  text-transform: uppercase;
+  color: #008ed6;
+}
+.h_2{
+  font-size: 36px;
+  color: #000000;
+}
+.p_item{
+
+}
+.p_item .p_icon {
+    display: inline-block;
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    transition: 0.5s;
+}
+.p_item .p_icon i{
+    color: #ff8b38;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.p_item h1{
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 20px 0;
+}
+.p_item p{
+  font-size: 18px;
+  padding: 0 30px;
+}
+/* product rivew section end */
+/* pricing section start */
+.pricing{
+  width: 100%;
+  background: #f5f5f5;
+  padding: 110px 0 90px;
+}
+
+.p_card{
+border: 1px solid #f5f5f5;
+}
+.p_card .p_head{
+  text-align: center;
+  text-transform: capitalize;
+}
+.p_card .p_head h6{
+  color: #f5f5f5;
+  background: #333333;
+  border-bottom: 1px solid #f5f5f5;
+  margin: 0;
+}
+
+.p_card .p_body{
+  text-align: center;
+  border-bottom: 4px solid #ff8b38;
+  background: #000000;
+  padding: 4px 0 10px;
+}
+.p_card .p_body h2{
+  font-size: 35px;
+color: #f5f5f5;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+.p_card .p_body h2 span{
+  font-size: 95px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.p_card .p_body h6{
+  font-style: italic;
+  text-transform: capitalize;
+  color: grey;
+}
+.p_special{
+  text-align: center;
+  background: #ff8b38;
+  }
+.p_special h6{
+  text-transform: uppercase;
+  padding: 6px 0 10px;
+  color: #ffffff;
+  }
+.p_card .p_footer{
+background: white;
+}
+.p_card .p_footer h6{
+  text-align: center;
+text-transform: uppercase;
+color: grey;
+border-bottom: 1px solid #f5f5f5;
+padding: 5px 0 10px;
+}
+/* pricing section end */
+/* customer section start*/
+.customer{
+  width: 100%;
+  padding: 110px 0 90px;
+}
+.customer .p_test{
+background: #cccccc;
+width: 75%;
+border-radius: 5px;
+}
+.customer .p_test p{
+  font-size: 14px;
+  width: 95%;
+  padding: 28px 0 0 21px;
+  margin-bottom: -15px;
+  }
+.customer .t_square{
+position: relative;
+width: 50px;
+height: 50px;
+background: #cccccc;
+rotate: 45deg;
+top: 13px;
+left: 11px;
+border-radius: 30px 0px 0 0;
+  }
+.customer .test{
+padding-top: 30px;
+  }
+.c_img{
+
+}
+.c_test{
+margin: 10px -19px;
+}
+.c_test h1{
+  font-size: 20px;
+}
+/* customer section end */
+/* design section start */
+.design{
+width: 100%;
+background: url(../img/design.png) center center no-repeat;
+background-size: cover;
+font-family: 'Raleway', sans-serif;
+padding: 100px 0 120px;
+}
+.design h2{
+  color: #ffffff;
+}
+.design p{
+  color: #ffffff;
+}
+.d_button{
+  text-align: center;
+}
+.d_btn{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  text-transform: capitalize;
+  padding: 11px 26px;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.d_btn:hover{
+  background: #ff8b38;
+  border: 1px solid #ff8b38;
+  transition: 0.5s;
+}
+/* design section end */
+/* contact section start */
+.contact{
+  width: 100%;
+  padding: 100px 0 90px;
+}
+.contact input{
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.contact .message input{
+  padding-bottom: 38%;
+  padding-left: 15px;
+}
+.c_btn{
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  background: transparent;
+  border: 1px solid black;
+  text-transform: capitalize;
+  padding: 11px 26px;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+.c_btn:hover{
+  background: #ff8b38;
+  border: 1px solid #ff8b38;
+  transition: 0.5s;
+  color: #ffffff;
+}
+/* contact section end */
+/* footer section start */
+.footer{
+  width: 100%;
+  background: #000000;
+  padding: 30px 0 10px;
+}
+.footer_icon{
+
+}
+.footer ul li{
+  padding: 0 20px;
+}
+.footer_icon ul li i{
+  color: #cccccc;
+  font-size: 24px;
+}
+/* footer section end */
